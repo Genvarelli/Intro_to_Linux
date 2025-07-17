@@ -39,7 +39,9 @@ This repository documents common **Linux directory commands** used in the termin
 
 ---
 
-| LS Command | Description |
+## List Commands
+
+| Command | Description |
 |---------|-------------|
 | `-a` | List all files, including hidden ones |
 | `--color` | List files in colorised output |
