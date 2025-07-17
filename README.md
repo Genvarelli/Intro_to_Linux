@@ -13,7 +13,10 @@ This repository documents common **Linux directory commands** used in the termin
 | `pwd` | Print the current working directory |
 | `ls` | List contents of the current directory |
 | `ls -l` | List contents in long format (permissions, size, modified date) |
-| `ls -a` | Show hidden files (those starting with `.`) |
+| `ls -a` | List all files, including hidden ones |
+| `ls -R` | List files recursively and lists its contents |
+| `ls -l` | Long listing format |
+| `t` | Sorts by time, most recently modified files show first |
 | `cd <directory>` | Change into specified directory |
 | `cd ..` | Go up one level (to parent directory) |
 | `cd ~` | Go to the home directory |
@@ -36,20 +39,6 @@ This repository documents common **Linux directory commands** used in the termin
 |---------|-------------|
 | `rmdir <dir>` | Remove an empty directory |
 | `rm -rf <dir>` | Force delete a directory and its contents (use with caution!) |
-
----
-
-## List Commands
-
-| Command | Description |
-|---------|-------------|
-| `-a` | List all files, including hidden ones |
-| `--color` | List files in colorised output |
-| `-d | List directory path, but no contents |
-| `-l` | Long listing format |
-| `r` | Reverse order |
-| `R` | List files recursively and lists its contents |
-| `t` | Sorts by time, most recently modified files show first |
 
 ---
 ## 🛠️ Moving & Renaming
