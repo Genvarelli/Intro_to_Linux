@@ -35,11 +35,21 @@ This repository documents common **Linux directory commands** used in the termin
 | Command | Description |
 |---------|-------------|
 | `rmdir <dir>` | Remove an empty directory |
-| `rm -r <dir>` | Remove a directory and its contents recursively |
 | `rm -rf <dir>` | Force delete a directory and its contents (use with caution!) |
 
 ---
 
+| LS Command | Description |
+|---------|-------------|
+| `-a` | List all files, including hidden ones |
+| `--color` | List files in colorised output |
+| `-d | List directory path, but no contents |
+| `-l` | Long listing format |
+| `r` | Reverse order |
+| `R` | List files recursively and lists its contents |
+| `t` | Sorts by time, most recently modified files show first |
+
+---
 ## 🛠️ Moving & Renaming
 
 | Command | Description |
