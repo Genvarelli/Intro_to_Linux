@@ -16,7 +16,7 @@ This repository documents common **Linux directory commands** used in the termin
 | `ls -a` | List all files, including hidden ones |
 | `ls -R` | List files recursively and lists its contents |
 | `ls -l` | Long listing format |
-| `t` | Sorts by time, most recently modified files show first |
+| `ls -t` | Sorts by time, most recently modified files show first |
 | `cd <directory>` | Change into specified directory |
 | `cd ..` | Go up one level (to parent directory) |
 | `cd ~` | Go to the home directory |
