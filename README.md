@@ -41,19 +41,3 @@ This repository documents common **Linux directory commands** used in the termin
 | `rm -rf <dir>` | Force delete a directory and its contents (use with caution!) |
 
 ---
-## 🛠️ Moving & Renaming
-
-| Command | Description |
-|---------|-------------|
-| `mv <source> <destination>` | Move or rename a file or directory |
-| `mv dir1/ dir2/` | Move `dir1` into `dir2` |
-
----
-
-## 📋 Copying Directories
-
-| Command | Description |
-|---------|-------------|
-| `cp -r <source> <destination>` | Copy directory and contents recursively |
-
----
