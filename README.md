@@ -1,6 +1,6 @@
 # Intro_to_Linux
 
-# 📁 Working with Directories (Linux)
+## 📁 Working with Directories (Linux)
 
 This repository documents common **Linux directory commands** used in the terminal. It's a helpful reference for beginners learning how to navigate and manipulate the filesystem using the command line.
 
