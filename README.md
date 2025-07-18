@@ -6,7 +6,7 @@ This repository documents common **Linux directory commands** used in the termin
 
 ---
 
-## 📂 Basic Navigation
+## 📂 Working with Directories
 
 | Command | Description |
 |---------|-------------|
@@ -21,6 +21,10 @@ This repository documents common **Linux directory commands** used in the termin
 | `cd ..` | Go up one level (to parent directory) |
 | `cd ~` | Go to the home directory |
 | `cd -` | Switch to the previous directory |
+| `mkdir <dir>` | Create a new directory |
+| `mkdir -p <dir1>/<dir2>` | Create nested directories (if parent doesn't exist) |
+| `rmdir <dir>` | Remove an empty directory |
+| `rm -rf <dir>` | Force delete a directory and its contents (use with caution!) |
 
 ---
 
@@ -38,22 +42,5 @@ This repository documents common **Linux directory commands** used in the termin
 | `clear` | Clear shell contents |
 | `exit` | Exits the shell or current shell session |
 | `touch <file_name>` | Create a new file or updates existing file with supplied name |
-
----
-## 📁 Creating Directories
-
-| Command | Description |
-|---------|-------------|
-| `mkdir <dir>` | Create a new directory |
-| `mkdir -p <dir1>/<dir2>` | Create nested directories (if parent doesn't exist) |
-
----
-
-## ❌ Removing Directories
-
-| Command | Description |
-|---------|-------------|
-| `rmdir <dir>` | Remove an empty directory |
-| `rm -rf <dir>` | Force delete a directory and its contents (use with caution!) |
 
 ---
