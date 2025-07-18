@@ -24,6 +24,22 @@ This repository documents common **Linux directory commands** used in the termin
 
 ---
 
+## 📂 Basic Linux Commands - Used frequently 
+
+| Command | Description |
+|---------|-------------|
+| `ls` | List contents of the current directory |
+| `cd <directory>` | Change into specified directory |
+| `pwd` | Print the current working directory |
+| `cat <file>` | View contents of the file |
+| `echo <argument>` | Display arguments to terminal screen |
+| `man <command>` | Displays the online manual for command help. Learn more about commands  |
+| `exit` | Exits the shell or current shell session |
+| `clear` | Clear shell contents |
+| `exit` | Exits the shell or current shell session |
+| `touch <file_name>` | Create a new file or updates existing file with supplied name |
+
+---
 ## 📁 Creating Directories
 
 | Command | Description |
