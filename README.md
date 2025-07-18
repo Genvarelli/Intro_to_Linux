@@ -44,3 +44,15 @@ This repository documents common **Linux directory commands** used in the termin
 | `touch <file_name>` | Create a new file or updates existing file with supplied name |
 
 ---
+
+## 📂 File & Directory Permissions 
+
+| Command              | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| `chmod 755 <file>`   | Owner: all permissions; Group/Others: read & execute. For public scripts.   |
+| `chmod 644 <file>`   | Owner: read/write; Group/Others: read. For public-readable config/files.    |
+| `chmod 700 <file>`   | Owner: all permissions; Group/Others: none. For private executables.        |
+| `chmod 600 <file>`   | Owner: read/write; Group/Others: none. For secure private files (e.g. SSH). |
+| `chmod 777 <file>`   | Everyone: all permissions. For temporary use; avoid in production.          |
+
+---
